@@ -1,0 +1,4 @@
+[
+  { "id": "bell", "title": "Bell State", "qubits": 2 },
+  { "id": "ghz", "title": "GHZ State", "qubits": 3 }
+]

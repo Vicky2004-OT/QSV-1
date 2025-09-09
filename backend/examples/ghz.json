@@ -1,0 +1,14 @@
+{
+  "id": "ghz",
+  "title": "GHZ State",
+  "description": "Prepare (|000> + |111>)/sqrt(2)",
+  "circuit": {
+    "qubits": 3,
+    "gates": [
+      { "name": "H", "targets": [0], "step": 0 },
+      { "name": "CNOT", "controls": [0], "targets": [1], "step": 1 },
+      { "name": "CNOT", "controls": [0], "targets": [2], "step": 2 },
+      { "name": "MEASURE", "targets": [0,1,2], "step": 3 }
+    ]
+  }
+}

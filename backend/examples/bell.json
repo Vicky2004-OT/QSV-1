@@ -1,0 +1,13 @@
+{
+  "id": "bell",
+  "title": "Bell State",
+  "description": "Prepare (|00> + |11>)/sqrt(2)",
+  "circuit": {
+    "qubits": 2,
+    "gates": [
+      { "name": "H", "targets": [0], "step": 0 },
+      { "name": "CNOT", "controls": [0], "targets": [1], "step": 1 },
+      { "name": "MEASURE", "targets": [0,1], "step": 2 }
+    ]
+  }
+}
