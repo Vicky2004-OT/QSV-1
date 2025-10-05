@@ -19,7 +19,7 @@ pip install -r backend/requirements.txt
 
 The backend handles quantum circuit simulation and Qiskit-based computations, exposing results via a REST API.
 
-Frontend (TypeScript + Vite)
+# Frontend (TypeScript + Vite)
 cd frontend
 npm install
 npm run dev
@@ -29,7 +29,7 @@ The frontend renders Bloch spheres, quantum gate visualizations, and interactive
 
 Live Demo: https://qsv-1.vercel.app/visualizer
 
-Docker Setup
+# Docker Setup
 docker compose up --build
 
 
@@ -37,7 +37,7 @@ Frontend: http://localhost:5173
 
 Backend API: http://localhost:8000
 
-Documentation
+# Documentation
 
 API.md – Backend endpoints and Qiskit integration
 
@@ -45,7 +45,7 @@ UserGuide.md – How to create circuits and visualize results
 
 Architecture.md – System design and frontend-backend interaction flow
 
-Tech Stack
+# Tech Stack
 
 Frontend: TypeScript, HTML5, CSS3, Node.js, Vite, 3D Visualization (Three.js / Plotly.js)
 Backend: Python, Flask / FastAPI, Qiskit, NumPy
